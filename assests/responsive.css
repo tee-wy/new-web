@@ -1,0 +1,1275 @@
+@media (max-width: 1280px) {
+    .row {
+        width:1024px;
+    }
+
+    h2 {
+        font-size: 45px;
+    }
+
+    .WhtBox {
+        font-size: 12px;
+    }
+
+    .stack_next {
+        bottom: -30px;
+    }
+
+    .BanTxt p {
+        margin: 10px 0;
+    }
+
+    .BanDots {
+        padding: 15px 8% 15px 4%;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        width: auto\9;
+    }
+
+    .StockBox .BigArrow {
+        margin: 0 0 0 30%;
+        bottom: -35px;
+    }
+
+    .PriceWhite {
+        padding: 15px 15px 35px 15px;
+    }
+
+    .PriceWhite .h2 {
+        font-size: 22px;
+    }
+
+    .MPopuler {
+        margin: -30px auto 8px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .row {
+        width:100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .IconMenu {
+        display: inline-block;
+        margin: 14px 0 8px 0;
+        position: relative;
+        z-index: 3;
+    }
+
+    .MobMenu {
+        display: none;
+        background-color: #fff;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 250px;
+        height: 100%;
+        padding: 20px 0;
+        box-shadow: 0 0 10px #a1a1a1;
+        z-index: 4;
+    }
+
+    .MobMenu a {
+        display: block;
+        color: #263238;
+        font-size: 16px;
+        text-transform: capitalize;
+        margin: 0;
+    }
+
+    .LeftMenu .MobMenu, .LeftMenu .HideMenus {
+        display: block;
+    }
+
+    .HideMenus {
+        height: 100%;
+        width: 100%;
+        z-index: 4;
+        left: 250px;
+        position: fixed;
+        display: none;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    nav .Green {
+        padding: 15px 25px;
+    }
+
+    nav a {
+        padding: 15px 1%;
+        font-size: 13px;
+    }
+
+    .MBan {
+        margin-top: -100px;
+    }
+
+    .BanBott {
+        right: 30px;
+        width: 33%;
+    }
+
+    .BanDots {
+        padding: 15px 40px;
+    }
+
+    .BanDots * {
+        transform: skew(0deg, 0deg);
+    }
+
+    .Smalltxt {
+        margin-bottom: 0;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    .Benefits {
+        margin-top: 0;
+    }
+
+    .IngtsBox {
+        margin-top: 50px;
+    }
+
+    .PBin {
+        padding: 0;
+    }
+
+    .box.PBin {
+        padding-top: 20px;
+    }
+
+    .TestiMain .box {
+        margin: 0;
+    }
+
+    .WhtBox b {
+        font-size: 15px;
+    }
+
+    .WhtBox {
+        min-height: 200px;
+    }
+
+    .Dosage {
+        font-size: 14px;
+    }
+
+    .top-link li {
+        margin-left: 10px;
+    }
+
+    .top-link a {
+        font-size: 15px;
+    }
+
+    .dropdown {
+        width: 150px;
+    }
+
+    .LoginPage .box, .ForgotPage .box {
+        margin: 0;
+    }
+
+    .IngtsHead {
+        font-size: 19px;
+    }
+
+    .In2 .IconUpArrow, .In4 .IconUpArrow, .In6 .IconUpArrow {
+        left: 57%;
+    }
+
+    .StockBox .BanBott {
+        right: 40px;
+        width: 40%;
+    }
+
+    .PriceBox .PriceHead {
+        font-size: 22px;
+    }
+
+    .col-lg-FWidth {
+        width: 100%;
+    }
+
+    .LeftMenu .TLogoSec {
+        z-index: 3;
+    }
+
+    .PriBtnMain .btn {
+        padding: 0 40px;
+    }
+
+    .PriceWhite .h2 {
+        font-size: 20px;
+    }
+
+    .PriceWhite {
+        padding: 20px 7px;
+    }
+
+    .MobMenu .IconMenu {
+        position: absolute;
+        right: 10px;
+        top: 0;
+        margin-top: 10px;
+    }
+
+    .MobMenu .IconMenu i:after, .MobMenu .IconMenu i:before {
+        background-color: #000;
+    }
+}
+
+@media (max-width: 980px) {
+    .BefitTtl h2 {
+        font-size:28px;
+    }
+
+    .elasticstack {
+        height: 425px;
+    }
+
+    .recent-order, .account-links a, .account-links li.current a {
+        font-size: 14px;
+    }
+
+    .account-links li, .account-links li.current {
+        padding: 5px 10px;
+    }
+
+    .pager .col-9 {
+        width: 75%;
+    }
+
+    .PP-Price .owl-stage {
+        padding-top: 0;
+    }
+
+    .Mpopup {
+        margin-top: 0;
+    }
+
+    .BanDots {
+        padding: 15px 35px;
+    }
+
+    .WhiteBox .wbdrtop {
+        min-height: 160px;
+    }
+
+    .TPhone {
+        position: absolute;
+        bottom: -35px;
+        color: #fff;
+        font-size: 16px;
+        left: 20px;
+        padding-left: 20px;
+        z-index: 1;
+    }
+
+    .IconPhone {
+        background-position: -37px top;
+        top: 2px;
+    }
+
+    .TPhone a {
+        display: inline-block;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .MBan > img {
+        max-width: 1000px;
+    }
+}
+
+@media (max-width: 900px) {
+    .PBin .col-4 {
+        width:100%;
+    }
+
+    .PImgMain {
+        float: left;
+        width: 35%;
+        text-align: center;
+        position: relative;
+        padding: 0 10px;
+    }
+
+    .PDetailsMain {
+        float: left;
+        width: 65%;
+        text-align: left;
+        padding: 0 15px;
+    }
+
+    .PriceWhite img {
+        margin-top: 20px;
+        max-height: 180px;
+    }
+
+    .PriceWhite .PriceHead {
+        margin: 0 0 10px;
+        text-transform: none;
+    }
+
+    .regular-price .price {
+        padding-top: 0;
+    }
+
+    .PDetailsMain .Saving {
+        min-height: inherit;
+        margin: 10px 0;
+    }
+
+    .PriceWhite {
+        min-width: 290px;
+        margin-bottom: 30px;
+        overflow: inherit;
+        float: left;
+        width: 100%;
+        padding: 15px;
+    }
+
+    .MPopuler {
+        width: 80%;
+        padding: 5px 10px;
+        left: 10%;
+        margin: -29px auto 8px;
+        position: absolute;
+    }
+
+    .PDetailsMain .Dosage {
+        padding: 10px 0;
+    }
+
+    .PriBtnMain {
+        margin-bottom: 0;
+    }
+
+    .PriceWhite .h2 {
+        margin: 0 0 10px;
+        text-transform: none;
+    }
+
+    .PriBtnMain .btn {
+        font-size: 20px;
+        line-height: 45px;
+        padding: 0 30px;
+    }
+
+    .PDetailsMain .Saving .Price {
+        padding: 5px 0;
+    }
+
+    .PDetailsMain .ClickBtn {
+        padding-right: 40px;
+    }
+
+    .BanBott {
+        bottom: -59px;
+    }
+
+    .Benft h3 {
+        font-size: 21px;
+    }
+
+    .IngtsHead {
+        font-size: 18px;
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 800px) {
+    .Mhidden {
+        display:none;
+    }
+
+    .TLogoSec {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .WarBox p {
+        font-size: 14px;
+    }
+
+    .NZ {
+        background-size: 400px auto;
+        background-position: left -19px;
+        width: 35px;
+    }
+
+    .NavFixed .TPhone {
+        position: fixed;
+        z-index: 5;
+        top: 12px;
+        left: 30px;
+        height: 25px;
+    }
+
+    .NavFixed .TPhone {
+        position: fixed;
+        z-index: 5;
+        top: 12px;
+        left: 35px;
+        height: 25px;
+    }
+
+    div.TPromo {
+        margin: 7px 0 0 0;
+        float: right;
+        text-align: left;
+    }
+
+    .BanDots {
+        padding: 15px 20px;
+        font-size: 16px;
+    }
+
+    .BanTxt {
+        width: 500px;
+    }
+
+    .Smalltxt {
+        margin-bottom: 0;
+    }
+
+    .col-6, .Benefits .col-7, .StockMain .col-7, .Benefits .col-5, #FAQS [class*="col-"] {
+        width: 100%;
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+
+    .btn-md {
+        padding: 0 30px;
+    }
+
+    .WhtBox {
+        min-height: auto;
+    }
+
+    .PriceMatch {
+        left: 5px;
+        text-align: left;
+    }
+
+    .PriceMatch img {
+        max-width: 80%;
+    }
+
+    .BenftBox .col-5 {
+        text-align: center;
+    }
+
+    .top-link {
+        float: right;
+    }
+
+    .ThisOrderHead .col-6, .MemberBlock .pager .col-6 {
+        width: 50%;
+    }
+
+    .Suppimg {
+        text-align: center;
+    }
+
+    .IngtsHead {
+        font-size: 16px;
+        padding: 0 15px;
+    }
+
+    .Ingredient .IconRPlus {
+        width: 40px;
+        height: 40px;
+        border: 4px solid rgb(248, 248, 248);
+        top: -8px;
+        right: -40px;
+        background-position: 7px -15px;
+        background-size: 400px auto;
+    }
+
+    .In2 .IconRPlus, .In4 .IconRPlus, .In6 .IconRPlus {
+        left: -40px;
+    }
+
+    .Ingredient .Ingtshover:hover .IconRPlus {
+        background-position: 7px -50px;
+        animation: none 1500ms infinite;
+    }
+
+    .In7 .IngtsTxt {
+        left: -80px;
+        top: 100px;
+    }
+
+    .In2 .IconUpArrow, .In4 .IconUpArrow, .In6 .IconUpArrow {
+        left: 61%;
+    }
+
+    .IconUpArrow {
+        left: 25%;
+    }
+
+    .IngtsTxt {
+        top: 45px;
+        margin-left: 27px;
+        left: 65px;
+    }
+
+    .In2 .IngtsTxt, .In4 .IngtsTxt, .In6 .IngtsTxt {
+        margin-right: -7px;
+    }
+
+    .Ingredient.In7 {
+        margin-left: -105px;
+        top: -55px;
+    }
+
+    .In7 .Ingtshover {
+        height: 50px;
+    }
+
+    .In7 .IconRPlus {
+        top: auto;
+        bottom: -30px;
+    }
+
+    .footer dl {
+        width: 100%;
+    }
+
+    .footer dd {
+        display: none;
+    }
+
+    .footer dt:after, .footer .active:after {
+        content: "+";
+        width: 10px;
+        height: 10px;
+        float: right;
+        margin-right: 7px;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .footer .active:after {
+        content: "_";
+        margin: -8px 5px;
+    }
+
+    .footer dt, .footer .Stuch dd a {
+        margin: 0;
+        cursor: pointer;
+        padding: 10px 0;
+        border-bottom: 1px solid;
+    }
+
+    .footer dl, .ContactBox {
+        padding-bottom: 0;
+    }
+
+    .footer .active, .footer .FLast dt {
+        margin-bottom: 10px;
+    }
+
+    .footer .FLast dt:after, .footer .FLast .active:after {
+        content: ""
+    }
+
+    .footer .FLast dd, .footer .active ~ dd {
+        display: block !important;
+    }
+
+    .ContactBox {
+        padding-top: 0;
+    }
+
+    .PayLogo, .SecureLogo {
+        width: 50%;
+        padding: 0 15px;
+    }
+
+    .StockBox {
+        width: 108%;
+        font-size: 34px;
+    }
+
+    .StockBox .BigArrow {
+        margin: 0 0 0 20%;
+        bottom: -44px;
+    }
+
+    .WRate {
+        width: 50%;
+    }
+
+    .WrtRView {
+        min-width: inherit;
+    }
+
+    .LoginPage .col-12 {
+        font-size: 22px;
+    }
+
+    .MyAccountLeft, .page .col-9 {
+        width: 100%;
+    }
+
+    .Testi {
+        padding: 40px 30px 20px;
+    }
+
+    .Testi {
+        padding: 40px 30px 20px;
+    }
+
+    .customer-account-login .authorization-link, .cms-home .authorization-link {
+        line-height: 40px;
+    }
+
+    .MBan {
+        background-position: -50px 0;
+    }
+
+    .Ingredient {
+        min-width: 210px;
+    }
+
+    .Fmenu .active {
+        border-bottom: none;
+    }
+
+    .ContactBox dt:nth-of-type(2) {
+        border: 0 none;
+    }
+
+    .ContactBox dt.active ~ dd:first-of-type {
+        border-bottom: none;
+    }
+
+    .Fmenu dt.active ~ dd.social-media {
+        display: none !important;
+    }
+
+    .Fmenu dt.active + dd.social-media {
+        display: block !important;
+    }
+
+    .Fmenu dt.active ~ dd {
+        border-bottom: 1px solid;
+    }
+
+    .ContactBox dd .txtlink {
+        margin-bottom: 8px;
+        display: inline-block;
+    }
+
+    .StockBox .BanBott {
+        right: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .TLogoSec {
+        padding:17px 0;
+    }
+
+    .Logo {
+        top: 8px;
+    }
+
+    .BanTxt h1 {
+        margin: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .HeadTop .col-8, .HeadTop .col-4 {
+        width:100%;
+    }
+
+    .BannerDots {
+        width: 70%;
+    }
+
+    .MBan {
+        background-position: -130px 0;
+    }
+}
+
+@media (max-width: 700px) {
+    .Ingredient {
+        position:relative;
+        width: 50%;
+        min-width: 50%;
+        padding: 10px;
+        float: left;
+        display: inline-block;
+    }
+
+    .In1, .In2, .In3, .In4, .In5, .In6, .In7 {
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+
+    .Ingredient .IconRPlus {
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 0;
+        border-radius: 30px;
+    }
+
+    .IconUpArrow {
+        left: 48%;
+    }
+
+    .In2 .IconRPlus, .In4 .IconRPlus, .In6 .IconRPlus, .In8 .IconRPlus {
+        float: left;
+    }
+
+    .In2 .IconUpArrow, .In4 .IconUpArrow, .In6 .IconUpArrow, .In8 .IconUpArrow {
+        left: 38%;
+    }
+
+    .IngtsBox {
+        width: 90%;
+    }
+
+    .Ingtshover {
+        height: inherit;
+        margin: 0;
+    }
+
+    .In2, .In4, .In6 {
+        text-align: left;
+    }
+
+    .In1, .In3, .In5, .In7 {
+        text-align: right;
+    }
+
+    .In2 .IconRPlus {
+        margin-left: 0;
+    }
+
+    .IngtsTxt, .In7 .IngtsTxt {
+        width: 400px;
+        left: 0;
+        top: 61px;
+    }
+
+    .In2 .IngtsTxt, .In4 .IngtsTxt, .In6 .IngtsTxt {
+        top: 65px;
+        right: 10%;
+    }
+
+    .Ingredient.In7 {
+        left: auto;
+        margin-left: 0;
+        top: 0;
+        text-align: right;
+    }
+
+    .In7 .IconRPlus {
+        top: 0;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 640px) {
+    .h2 {
+        font-size:35px;
+    }
+
+    .HeadTop .box {
+        padding: 10px 0;
+    }
+
+    .Logo {
+        position: relative;
+        text-align: center;
+        display: block;
+        top: 10px;
+        width: 100%;
+    }
+
+    div.TPromo {
+        float: none;
+        margin: 0;
+    }
+
+    .BanDots .Spt.IconInjury {
+        background-position: -69px top;
+    }
+
+    .BanDots .Spt {
+        float: left;
+        background-size: 300px auto;
+        margin: 2px 12px 0 0;
+        width: 35px;
+        height: 35px;
+    }
+
+    div.TPhone {
+        font-size: 0;
+    }
+
+    div.TPhone a {
+        font-size: 15px;
+    }
+
+    .WarBox p {
+        font-size: 12px;
+    }
+
+    .MBan > img {
+        margin-left: -260px;
+    }
+
+    .BanDots {
+        padding-right: 47%;
+    }
+
+    .BanDots [class*="col-"] {
+        width: 100%;
+        text-align: left;
+    }
+
+    .BanBott {
+        right: 25px;
+        width: 42%;
+        bottom: -48px;
+    }
+
+    .BanTxt p {
+        white-space: normal;
+        font-size: 43px;
+    }
+
+    .modal-content {
+        font-size: 14px;
+    }
+
+    .table-responsive {
+        margin-bottom: 15px;
+        overflow-y: hidden;
+    }
+
+    .fields > .field {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .IngtsTxt, .In7 .IngtsTxt {
+        left: -12%;
+        top: 60px;
+    }
+
+    .In2 .IngtsTxt, .In4 .IngtsTxt, .In6 .IngtsTxt {
+        right: 3%;
+    }
+
+    .BigArrow {
+        display: none;
+    }
+
+    .WhiteBox .wbdrtop {
+        min-height: 190px;
+    }
+
+    .StockBox p {
+        font-size: 28px;
+    }
+
+    .customer-account-login .authorization-link, .cms-home .authorization-link {
+        line-height: 20px;
+    }
+
+    .MBan {
+        background-position: -210px 0;
+    }
+
+    .Ingredient {
+        font-size: 23px;
+    }
+
+    .IngtsHead {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+
+    .BanTxt h1 {
+        font-size: 40px;
+    }
+
+    .IconFirst {
+        background-position: -35px 2px;
+    }
+
+    .IconSecond {
+        background-position: -121px -124px;
+    }
+
+    .IconThird {
+        background-position: -121px -168px;
+    }
+
+    .StockBox {
+        left: -5%;
+        width: 110%;
+        text-align: center;
+        padding: 15px 15px 220px;
+    }
+
+    .StockBox .BanBott {
+        width: 300px;
+        right: 50%;
+        margin-right: -150px;
+        bottom: -10px;
+    }
+
+    .StockMain .col-7 {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .PImgMain {
+        width: 30%;
+    }
+
+    .PriceWhite img {
+        max-height: 100px;
+    }
+
+    .PDetailsMain {
+        width: 70%;
+        padding: 10px;
+    }
+
+    .PDetailsMain .btn {
+        line-height: 41px;
+        font-size: 18px;
+    }
+
+    .MPopuler {
+        width: 150px;
+        left: 10px;
+    }
+
+    .PriceWhite .PriceHead {
+        font-size: 17px;
+    }
+
+    .PDetailsMain .Saving span {
+        font-size: 16px;
+        padding: 5px 0;
+    }
+
+    .PDetailsMain .Saving .Price {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 560px) {
+    .IngtsTxt, .In7 .IngtsTxt {
+        left:-27%;
+    }
+
+    .In2 .IngtsTxt, .In4 .IngtsTxt, .In6 .IngtsTxt {
+        right: -12%;
+    }
+}
+
+@media (max-width: 480px) {
+    .IngtsBot {
+        display:none;
+    }
+
+    .IngtsTxt, .In7 .IngtsTxt {
+        left: -10%;
+        padding: 10px 15px;
+        width: 300px;
+    }
+
+    .In2 .IngtsTxt, .In4 .IngtsTxt, .In6 .IngtsTxt {
+        right: 0;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    .WhtBox {
+        width: 100% !important;
+        margin-bottom: 15px;
+        border: 0;
+    }
+
+    .WhtBox:before {
+        display: none;
+    }
+
+    .BanDots {
+        padding: 20px 20px 200px;
+    }
+
+    .BanBott {
+        right: 50%;
+        width: 250px;
+        bottom: -60px;
+        margin-right: -125px;
+    }
+
+    .btn {
+        padding: 0 50px;
+    }
+
+    .MBan > img {
+        width: 1300px;
+        max-width: none;
+        margin-left: -120%;
+    }
+
+    .BanTxt {
+        width: 100%;
+        left: 0;
+        padding: 0 20px;
+    }
+
+    .BanTxt h1 {
+        font-size: 35px;
+    }
+
+    html {
+        -webkit-text-size-adjust: none;
+    }
+
+    .Reviewer {
+        padding-left: 70px;
+        font-size: 13px;
+    }
+
+    .Reviewer img {
+        left: 12px;
+    }
+
+    .FLiveChat {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .pager .col-9, .pager .col-3 {
+        width: 100%;
+    }
+
+    .my-account > h2 {
+        font-size: 25px;
+    }
+
+    .IngtsBox {
+        width: 100%;
+    }
+
+    .In2 .IconUpArrow, .In4 .IconUpArrow, .In6 .IconUpArrow, .In8 .IconUpArrow {
+        left: 30%;
+    }
+
+    .PayLogo, .SecureLogo {
+        width: 100%;
+        padding: 0 15px;
+        text-align: center;
+    }
+
+    .StockBox .Green {
+        margin: 20px 0;
+    }
+
+    .IconPayment {
+        margin-left: 10px;
+    }
+
+    .BannerDots {
+        width: 100%;
+    }
+
+    .MBan {
+        min-height: 840px;
+        background-position: left 30px;
+    }
+
+    .BanTxt {
+        top: 10%;
+    }
+}
+
+@media (max-width: 420px) {
+    .IngtsTxt, .In7 .IngtsTxt {
+        left: -17%;
+    }
+
+    .ContactDetails [class*="col-"] {
+        padding: 0 7px;
+    }
+
+    .ContactDetails .Spt {
+        display: none;
+    }
+
+    .FaqMain .panel-title {
+        font-size: 16px;
+    }
+
+    .BanTxt {
+        top: 11%;
+    }
+
+    .BenftBox .Green {
+        font-size: 22px;
+    }
+
+    .IngtsHead, .In2 .IngtsHead, .In4 .IngtsHead, .In6 .IngtsHead, .In8 .IngtsHead {
+        top: 50px;
+        right: 0;
+        left: 0;
+        text-align: center;
+        word-wrap: break-word;
+        position: absolute;
+    }
+
+    .IconRPlus, .In2 .IconRPlus, .In4 .IconRPlus, .In6 .IconRPlus, .In8 .IconRPlus {
+        display: block;
+        margin: 0 auto;
+        float: none;
+    }
+
+    .IconUpArrow {
+        left: 15%;
+    }
+
+    .In1, .In2, .In3, .In4, .In5, .In6, .In7 {
+        padding-bottom: 30px;
+    }
+
+    .In7 .IconRPlus {
+        margin: 0 auto;
+    }
+
+    .In2 .IconUpArrow, .In4 .IconUpArrow, .In6 .IconUpArrow, .In8 .IconUpArrow {
+        left: 60%;
+    }
+
+    .BCapsule {
+        padding-right: 10px;
+    }
+
+    .PriceWhite img {
+        max-height: 80px;
+    }
+
+    .PriceWhite .h2 {
+        font-size: 20px;
+    }
+
+    .h2, .BenftBox .h2 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 360px) {
+    body {
+        font-size:14px;
+    }
+
+    .recent-order {
+        font-size: 12px;
+    }
+
+    nav .Green {
+        padding: 15px;
+    }
+
+    .Logo {
+        width: 100%;
+    }
+
+    .h3 {
+        font-size: 25px;
+    }
+
+    .btn-sm {
+        line-height: 36px;
+        padding: 0 20px;
+        margin-bottom: 8px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    .TLogoSec {
+        font-size: 12px;
+    }
+
+    .BanTxt h1 {
+        font-size: 34px;
+    }
+
+    .my-account .box {
+        padding: 0;
+    }
+
+    .my-account .title {
+        font-size: 16px;
+    }
+
+    .my-account .editlink {
+        font-size: 12px;
+    }
+
+    .PriceBox h2 {
+        padding: 0 5px;
+        margin-bottom: 0;
+    }
+
+    .Benft h3 {
+        font-size: 18px;
+    }
+
+    .Benft {
+        margin-bottom: 0;
+        padding: 10px 0px 10px 70px;
+    }
+
+    .BenftBox .Spt {
+        background-size: 400px auto;
+        background-position: -36px -56px;
+        margin: 2px 15px 0 0;
+        width: 61px !important;
+        height: 61px !important;
+    }
+
+    .Benft .IconUrny {
+        background-position: -114px -101px;
+    }
+
+    .Benft .IconFrqut {
+        background-position: -114px top;
+    }
+
+    .PriceWhite .h2 {
+        font-size: 17px;
+    }
+}

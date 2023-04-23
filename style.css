@@ -1,0 +1,1697 @@
+@font-face {
+  font-family: "proxima_nova_altblack";
+  src: url("fonts/mark_simonson_-_proxima_nova_alt_black_2-webfont.woff2")
+      format("woff2"),
+    url("fonts/mark_simonson_-_proxima_nova_alt_black_2-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "leckerlioneregular";
+  src: url("fonts/leckerlione-regular_0-webfont.woff2") format("woff2"),
+    url("fonts/leckerlione-regular_0-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "RobotoRegular";
+  src: url("fonts/RobotoRegular.eot");
+  src: url("fonts/RobotoRegular.eot") format("embedded-opentype"),
+    url("fonts/RobotoRegular.woff2") format("woff2"),
+    url("fonts/RobotoRegular.woff") format("woff"),
+    url("fonts/RobotoRegular.ttf") format("truetype"),
+    url("fonts/RobotoRegular.svg#RobotoRegular") format("svg");
+}
+@font-face {
+  font-family: "RobotoBold";
+  src: url("fonts/RobotoBold.eot");
+  src: url("fonts/RobotoBold.eot") format("embedded-opentype"),
+    url("fonts/RobotoBold.woff2") format("woff2"),
+    url("fonts/RobotoBold.woff") format("woff"),
+    url("fonts/RobotoBold.ttf") format("truetype"),
+    url("fonts/RobotoBold.svg#RobotoBold") format("svg");
+}
+
+header,
+footer,
+article,
+figcaption,
+figure,
+hgroup,
+nav,
+summary {
+  display: block;
+}
+html,
+body {
+  overflow-x: hidden;
+}
+body {
+  margin: 0;
+  font-family: "RobotoRegular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #263238;
+}
+
+a {
+  text-decoration: underline;
+}
+a:hover {
+  text-decoration: none;
+}
+* {
+  outline: none;
+}
+var {
+  font-style: normal;
+}
+p {
+  line-height: 1.6em;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+h1 {
+  font-size: 48px;
+}
+.h3 {
+  font-size: 32px;
+  margin: 0 0 10px;
+  line-height: 1.1em;
+}
+h2 {
+  font-size: 48px;
+  text-transform: uppercase;
+}
+.h2 {
+  margin: 0 0 15px 0;
+}
+.select::-ms-expand {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+.width-auto {
+  width: auto !important;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.table-responsive {
+  overflow: auto;
+}
+
+/* common css */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.box {
+  margin: 0 -15px;
+  display: block;
+  clear: left;
+  padding: 15px 0;
+}
+.box:before,
+.box:after {
+  display: table;
+  content: "";
+  clear: both;
+}
+.cont {
+  display: block;
+}
+.row {
+  width: 1200px;
+  margin: 0 auto;
+}
+.FltRight {
+  float: right !important;
+}
+.FltLeft {
+  float: left;
+}
+.txt-center {
+  text-align: center;
+}
+.txt-right {
+  text-align: right;
+}
+.col-1,
+.col-2,
+.col-2-5,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 {
+  position: relative;
+  min-height: 1px;
+  padding: 0 15px;
+  float: left;
+}
+.col-1 {
+  width: 8.333333333333332%;
+}
+.col-2 {
+  width: 16.666666666666664%;
+}
+.col-2-5 {
+  width: 20%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33333333333333%;
+}
+.col-5 {
+  width: 41.66666666666667%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.333333333333336%;
+}
+.col-8 {
+  width: 66.66666666666666%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33333333333334%;
+}
+.col-11 {
+  width: 91.66666666666666%;
+}
+.col-12 {
+  width: 100%;
+}
+header,
+section,
+footer {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+.clearfix,
+.form-group {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after,
+.form-group:after,
+.form-group:before {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after,
+.form-group:after {
+  clear: both;
+}
+.widgets {
+  padding: 15px 0;
+}
+.bdrbox {
+  border: 1px solid #c3c3c3;
+  padding: 15px;
+  border-radius: 5px;
+}
+.ContactUs .bdrbox {
+  min-height: 180px;
+}
+.ContactUs h3 {
+  font-size: 18px;
+}
+
+.row,
+header aside {
+  position: relative;
+}
+header,
+footer {
+  float: left;
+  width: 100%;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.ComTbl td,
+.ComTbl th {
+  padding: 0.7em 1em;
+  vertical-align: top;
+}
+.ComTbl th {
+  white-space: nowrap;
+  text-align: left;
+}
+.ComTbl .Lblue td,
+.ComTbl th {
+  background-color: #f9f9f9;
+}
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+  padding: 0px 5px 8px;
+}
+.TermTbl td,
+.TermTbl th {
+  padding: 0.7em 1em;
+  vertical-align: top;
+}
+.TermTbl tbody td,
+.TermTbl th {
+  border: 1px dotted #d9d9d9;
+}
+.TermTbl th {
+  white-space: nowrap;
+  text-align: left;
+}
+.TermTbl .Lblue td,
+.TermTbl th {
+  background-color: #f9f9f9;
+}
+
+.help-block {
+  display: block;
+  color: #797979;
+  font-size: 14px;
+  padding-top: 10px;
+}
+ul,
+ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ol li {
+  margin-bottom: 10px;
+}
+
+/* common images */
+.Spt {
+  background: url(../images/sprite.png) left top no-repeat;
+  display: inline-block;
+}
+
+/* common buttons css */
+.btn {
+  font-size: 26px;
+  line-height: 52px;
+  display: inline-block;
+  color: #fff;
+  border-radius: 100px;
+  padding: 0 60px;
+  text-decoration: none;
+  border: 0;
+}
+.btn.btn-sm {
+  font-size: 14px;
+  line-height: 34px;
+  padding: 0 25px;
+  background-color: grey;
+}
+.btn.btn-md {
+  font-size: 20px;
+  line-height: 48px;
+  padding: 0 50px;
+}
+
+/* common css Properties */
+.txtlink {
+  text-decoration: underline;
+}
+.txtlink:hover {
+  text-decoration: none;
+}
+.StockBox p,
+.Benft h3 {
+  font-family: "leckerlioneregular";
+}
+.BanTxt h1,
+.h2,
+.Price,
+.Saving .price,
+.PriceHead {
+  font-family: "proxima_nova_altblack";
+}
+.WarBox,
+.TPromo,
+.Reviewer,
+.bdrbot,
+.btn,
+.TPhone,
+.label-checkbox,
+.label-radio,
+.MemberBlock,
+.pager,
+.Benft,
+.SptIngts,
+.StockBox,
+.TestiBox,
+.WriteIcon,
+.BannerDots {
+  position: relative;
+}
+
+
+.WarTxt,
+.Logo,
+.TPromo .BFlags,
+.BanTxt,
+.BanDots,
+.BanBott,
+*:before,
+.Skew,
+.stack_next,
+.IconPhone,
+.PriceMatch,
+.Benft em,
+.Ingredient,
+.IconUpArrow,
+.IconRPlus,
+.IngtsTxt,
+.Ingthover,
+.UserIcon,
+.BannerDots .Spt {
+  position: absolute;
+}
+.PLeft0 {
+  padding-left: 0 !important;
+}
+.PRight0 {
+  padding-right: 0 !important;
+}
+.MLeft0 {
+  margin-left: 0 !important;
+}
+.MRight0 {
+  margin-right: 0 !important;
+}
+.PRight15 {
+  padding-right: 15px !important;
+}
+.MTop30 {
+  padding-top: 30px !important;
+}
+.Center {
+  text-align: center;
+}
+.pdg0 {
+  padding: 0;
+}
+.Mrg8 {
+  margin: 8px 0;
+}
+.social-icon {
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+  padding: 10px;
+  display: inline-block;
+  margin: 0 5px;
+}
+.social-media a {
+  display: inline-block !important;
+}
+.FB {
+  background-position: -20px -224px;
+}
+.Instagram {
+  background-position: -21px -190px;
+}
+.social-media .FB:hover {
+  background-color: #3b5998 !important;
+  transition: 1s;
+}
+.social-media .Instagram:hover {
+  background-color: #c32aa3 !important;
+  transition: 1s;
+}
+
+/* header css */
+header {
+  z-index: 2;
+  background: #fff;
+}
+.HeadTop {
+  background-color: #ebebeb;
+}
+.HeadTop .box {
+  padding: 5px 0;
+}
+.WarBox {
+  background-color: #fffafb;
+  border: 1px dashed;
+  font-size: 13px;
+  padding: 0 10px 0 45px;
+}
+.WarTxt {
+  font-size: 32px;
+  left: 10px;
+  top: 7px;
+}
+.WarBox p {
+  margin: 10px 0;
+  line-height: normal;
+}
+.WarBox span {
+  font-weight: 700;
+  display: inline-flex;
+}
+.Waricon {
+  border: 1px solid;
+  border-radius: 100%;
+  width: 25px;
+  height: 25px;
+  background-position: 8px 3px;
+  display: inline-block;
+}
+.HTRight {
+  text-align: right;
+}
+.form-language {
+  display: inline;
+  margin-left: 6px;
+}
+.LogIcon {
+  background-position: -586px 1px;
+  width: 15px;
+  height: 16px;
+}
+
+.TLogoSec {
+  text-align: right;
+  float: right;
+  padding: 25px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: end;
+}
+.Logo {
+  top: 15px;
+  z-index: 3;
+}
+.TLogoSec div {
+  display: inline-block;
+  margin-left: 20px;
+}
+.TPhone {
+  color: #263238;
+  text-align: left;
+  padding-left: 22px;
+}
+.TPhone a {
+  display: block;
+  cursor: inherit;
+  text-decoration: none;
+  padding-right: 15px;
+}
+.IconPhone {
+  background-position: -21px top;
+  width: 15px;
+  height: 15px;
+  left: 0;
+  top: 5px;
+}
+.TPromo {
+  padding-left: 50px;
+  text-align: left;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: end;
+  align-items: end;
+}
+.TPromo span {
+  font-weight: 700;
+  display: block;
+  color: #263238;
+}
+
+nav {
+  clear: both;
+  text-transform: uppercase;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 0 11px;
+  margin: 0 1.5%;
+  display: inline-block;
+  border-bottom: 4px solid #8d1825;
+  font-size: 14px;
+}
+nav a:hover {
+  border-color: #50a30b;
+  color: #f2f7ff;
+}
+nav .Green {
+  float: right;
+  border: 0;
+  padding: 15px;
+  margin: 0;
+}
+nav .Green:hover {
+  color: #fff;
+}
+
+.IconMenu {
+  display: none;
+  width: 22px;
+  height: 20px;
+  cursor: pointer;
+  position: relative;
+}
+
+.IconMenu i,
+.IconMenu i::before,
+.IconMenu i::after {
+  position: absolute;
+  height: 3px;
+  width: 24px;
+  background: #fff;
+}
+.IconMenu i {
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  -webkit-transition: background 0.3s 0.3s;
+  -moz-transition: background 0.3s 0.3s;
+  transition: background 0.3s 0.3s;
+}
+.IconMenu i::before,
+.IconMenu i::after {
+  content: "";
+  right: 0;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform-origin: 0 50%;
+  -moz-transform-origin: 0 50%;
+  -ms-transform-origin: 0 50%;
+  -o-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition: -webkit-transform 0.3s 0.3s;
+  -moz-transition: -moz-transform 0.3s 0.3s;
+  transition: transform 0.3s 0.3s;
+}
+.IconMenu i::before {
+  top: -6px;
+}
+.IconMenu i::after {
+  top: 6px;
+}
+
+.IconMenu.fa-close i::before {
+  -webkit-transform: translateX(4px) translateY(-3px) rotate(45deg);
+  -moz-transform: translateX(4px) translateY(-3px) rotate(45deg);
+  -ms-transform: translateX(4px) translateY(-3px) rotate(45deg);
+  -o-transform: translateX(4px) translateY(-3px) rotate(45deg);
+  transform: translateX(4px) translateY(-3px) rotate(45deg);
+}
+.IconMenu.fa-close i {
+  background: rgba(46, 50, 51, 0);
+}
+.IconMenu.fa-close i::after {
+  -webkit-transform: translateX(4px) translateY(2px) rotate(-45deg);
+  -moz-transform: translateX(4px) translateY(2px) rotate(-45deg);
+  -ms-transform: translateX(4px) translateY(2px) rotate(-45deg);
+  -o-transform: translateX(4px) translateY(2px) rotate(-45deg);
+  transform: translateX(4px) translateY(2px) rotate(-45deg);
+}
+.IconMenu.fa-close i::after,
+.cd-nav-trigger.nav-is-visible span::before {
+  background: #fff none repeat scroll 0 0;
+}
+.IconMenu.fa-close i {
+  margin: 0 auto;
+  right: 0;
+}
+.NavFixed nav {
+  position: fixed;
+  z-index: 4;
+  width: 100%;
+  top: 0;
+}
+.MemberNav {
+  border-bottom: 8px solid #b70d37;
+}
+footer .MemberNav {
+  border-top: 8px solid #b70d37;
+}
+
+section {
+  padding: 50px 0 20px;
+}
+
+.MainBanner {
+  z-index: 1;
+}
+.MBan {
+  transform: skew(0deg, 3deg);
+  margin-top: -105px;
+  background: url(assests/common/images/banner.jpeg) left top no-repeat;
+  min-height: 710px;
+}
+.MBan img {
+  vertical-align: middle;
+}
+.BanTxt {
+  transform: skew(0deg, -3deg);
+  left: 5%;
+  top: 17%;
+  width: 600px;
+  font-size: 60px;
+}
+.BanTxt h1 {
+  line-height: 1.2em;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  color: #000;
+}
+.IconPayment {
+  margin: 20px 0 20px 20px;
+}
+.BanDots {
+  background-color: rgb(141, 24, 37, 0.9);
+  bottom: 0;
+  width: 106%;
+  left: -3%;
+  transform: skew(0deg, -4deg);
+  padding: 15px 80px;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+}
+.BanBott {
+  right: 35px;
+  bottom: -78px;
+}
+.BanDots * {
+  transform: skew(0deg, 0.5deg);
+}
+.IconFirst {
+  background-position: -77px top;
+  width: 61px;
+  height: 70px;
+}
+.IconSecond {
+  background-position: -241px -248px;
+  width: 61px;
+  height: 70px;
+}
+.IconThird {
+  background-position: -241px -335px;
+  width: 61px;
+  height: 70px;
+}
+.BanDots p {
+  line-height: normal;
+  margin-top: 10px;
+}
+.BannerDots {
+  font-size: 16px;
+  font-weight: 600;
+}
+.BannerBox {
+  margin-top: 30px;
+}
+.BannerDots .Spt {
+  width: 24px;
+  height: 24px;
+  top: 5px;
+  left: 0;
+}
+.BannerDots {
+  margin-bottom: 10px;
+  padding: 0px 0px 5px 35px;
+}
+.IconBRight {
+  background-position: left -234px;
+}
+.Newsspan {
+  vertical-align: top;
+  margin-right: 15px;
+}
+
+.Benefits {
+  padding-top: 0;
+}
+.BenftBox {
+  padding: 30px 20px;
+}
+.BenftBox .h2 {
+  font-size: 35px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.Benft {
+  min-height: 150px;
+  padding: 20px 0px 10px 110px;
+}
+.Benft em {
+  background-size: auto;
+  background-position: -55px -85px;
+  width: 90px;
+  height: 90px;
+  left: 0;
+  top: 10px;
+}
+.Benft .IconUrny {
+  background-position: -172px -152px;
+}
+.Benft .IconFrqut {
+  background-position: -172px top;
+}
+.Benft h3 {
+  font-size: 28px;
+  margin: 0 0 10px;
+  color: #53800a;
+}
+.Suppimg {
+  margin-top: 10px;
+}
+
+.TestiMain {
+  padding: 40px 0;
+}
+.Cpoint #ListReview {
+  color: #fff;
+  float: left;
+}
+.Testi .col-6 {
+  width: 100%;
+}
+.Testi {
+  padding: 40px 30px 20px;
+}
+.Testi .TestiBox,
+.TestiBox {
+  padding: 0 0 15px 60px;
+}
+.UserIcon {
+  background-position: left -350px;
+  width: 50px;
+  height: 50px;
+  top: 0;
+  left: 0;
+}
+.Testi .UserIcon {
+  background-position: -56px -350px;
+}
+.TestiName {
+  margin: 0 0 8px;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 600;
+}
+.TestiName span {
+  font-size: 15px;
+  font-weight: 300;
+}
+.TestiName b {
+  font-size: 13px;
+  font-weight: 300;
+}
+.ratings {
+  width: 85px;
+  height: 14px;
+}
+.str1 {
+  background-position: -118px -273px;
+}
+.str1-5 {
+  background-position: -118px -287px;
+}
+.str2 {
+  background-position: -118px -301px;
+}
+.str2-5 {
+  background-position: -118px -316px;
+}
+.str3 {
+  background-position: -118px -330px;
+}
+.str3-5 {
+  background-position: -118px -344px;
+}
+.str4 {
+  background-position: -118px -358px;
+}
+.str4-5 {
+  background-position: -118px -372px;
+}
+.str5 {
+  background-position: -118px -386px;
+}
+.TestiBox p {
+  margin: 8px 0;
+  font-weight: 300;
+}
+.GRightIcon {
+  background-position: -24px -281px;
+  width: 16px;
+  height: 16px;
+  line-height: 18px;
+}
+.Testi .GRightIcon {
+  background-position: left -281px;
+}
+.WriteIcon {
+  background-size: 413px auto;
+  background-position: left -209px;
+  width: 14px;
+  height: 14px;
+  top: 5px;
+  left: 4px;
+}
+.Testi .TestiBox,
+.MoreReview .txtlink {
+  color: #fff;
+}
+.WrtRView {
+  min-width: 450px;
+}
+
+.IngtsBox {
+  margin: 50px auto 0;
+  float: none;
+}
+.IngtsBot {
+  width: auto;
+  border-radius: 100%;
+  overflow: hidden;
+  border: 20px solid #ebebeb;
+}
+.Ingredient {
+  right: 88%;
+  top: 15%;
+  min-width: 300px;
+  font-size: 26px;
+  text-align: right;
+}
+.IngtsHead {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0 25px;
+}
+.Ingredient .IconRPlus {
+  right: -55px;
+  top: -10px;
+  width: 60px;
+  height: 60px;
+  background-color: #fff;
+  border: 8px solid #ebebeb;
+  background-position: 8px -24px;
+  cursor: pointer;
+  border-radius: 30px;
+  z-index: 1;
+}
+.IngtsTxt {
+  display: none;
+  width: 500px;
+  font-size: 14px;
+  white-space: normal;
+  background: rgb(141, 24, 37, 0.9);
+  border-radius: 30px;
+  padding: 25px;
+  color: #fff;
+  text-align: left;
+  top: 60px;
+  bottom: auto;
+  z-index: 2;
+  left: 50%;
+}
+.IngtsTxt strong {
+  font-size: 20px;
+}
+.IngtsTxt p {
+  margin: 0;
+}
+.IngtsTxt a {
+  color: #fff;
+}
+.SptIngts {
+  float: right;
+  width: 100px;
+  height: 100px;
+  margin: 0 0 10px 10px;
+  border: 2px solid #2d5ea1;
+}
+.Ingtshover {
+  width: 100%;
+  height: 70px;
+}
+.Ingredient .Ingtshover:hover .IconRPlus {
+  background-position: 8px -78px;
+  border-color: #ddd;
+}
+.Ingredient .Ingtshover:hover .IngtsTxt {
+  display: block;
+}
+.Ingredient.In7 {
+  left: 50%;
+  top: -65px;
+  margin-left: -150px;
+  text-align: center;
+}
+.In7 .IconRPlus {
+  left: 50%;
+  margin-left: -30px;
+  bottom: -32px;
+  top: auto;
+}
+.In7 .IngtsTxt {
+  left: 0;
+  top: 110px;
+}
+.IconUpArrow {
+  left: 28%;
+  top: -40px;
+}
+.IconUpArrow {
+  background-position: 30px -142px;
+  width: 80px;
+  height: 40px;
+  cursor: pointer;
+}
+.In2,
+.In4,
+.In6 {
+  left: 88%;
+  text-align: left;
+}
+.In3 {
+  right: 100%;
+  top: 45%;
+}
+.In4 {
+  left: 100%;
+  top: 45%;
+}
+.In5,
+.In6 {
+  bottom: 12%;
+  top: inherit;
+}
+.In5 {
+  right: 89%;
+}
+.In6 {
+  left: 89%;
+}
+.In2 .IconRPlus,
+.In4 .IconRPlus,
+.In6 .IconRPlus {
+  left: -55px;
+}
+.In2 .IngtsTxt,
+.In4 .IngtsTxt,
+.In6 .IngtsTxt {
+  right: 50%;
+  left: inherit;
+}
+.In2 .IconUpArrow,
+.In4 .IconUpArrow,
+.In6 .IconUpArrow {
+  right: 26%;
+  left: inherit;
+}
+
+/* Price */
+.PBin {
+  padding: 0 20px;
+}
+.box.PBin {
+  padding: 20px 0 0;
+}
+.PriceWhite .h2 {
+  font-size: 25px;
+  text-transform: uppercase;
+}
+.order_now .Slide3 {
+  padding: 25px 0 0;
+}
+.Price,
+.Saving .price {
+  display: block;
+  padding: 10px 0;
+}
+.regular-price .price {
+  padding-top: 35px;
+}
+.PBin .owl-nav {
+  margin-top: 20px;
+}
+.order_now .owl-item {
+  padding: 20px 0px;
+}
+.PriceWhite {
+  padding: 25px;
+  background-color: #fff;
+}
+.PDetailsMain {
+  padding: 20px 10px;
+  color: #fff;
+}
+.PriceWhite img {
+  margin: 20px 0;
+}
+.PriceBox .PriceHead,
+.Price,
+.Saving .price {
+  font-size: 35px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.PriceBox .PriceHead {
+  font-size: 25px;
+  font-weight: bolder;
+}
+.Dosage {
+  color: #858d92;
+  border-top: 1px solid #e3e3e3;
+  border-bottom: 1px solid #e3e3e3;
+  padding: 15px 0;
+}
+.Saving {
+  color: #53800a;
+  margin: 20px 0;
+  min-height: 100px;
+}
+.Saving s {
+  color: #b5c2cb;
+}
+.MPopuler {
+  width: 80%;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  display: block;
+  margin: -40px auto 8px;
+}
+.BCapsule {
+  padding-right: 20%;
+}
+.order_now .row.clearfix.Center {
+  background-color: #f3d865;
+  padding: 50px 20px;
+}
+
+.ContactUs .Spt {
+  width: 27px;
+  height: 27px;
+  margin: 0 2px -10px 0;
+}
+.CPhoneIcon {
+  background-position: -472px -68px;
+}
+.CWebIcon {
+  background-position: -501px -68px;
+}
+.CAddressIcon {
+  background-position: -531px -68px;
+}
+
+#FAQS .h2 {
+  margin-bottom: 20px;
+}
+.collapse {
+  display: none;
+}
+.collapse.in {
+  display: block;
+}
+.FaqMain .panel-title {
+  border: 1px solid #adadad;
+  margin: 0 0 5px;
+  color: #252b33;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  cursor: pointer;
+}
+.FaqMain .active .panel-title {
+  border: 1px solid #fff;
+  color: #fff;
+}
+.panel-title {
+  color: #263238;
+}
+.panel-title em,
+.panel-title .collaps[aria-expanded="true"] em {
+  background-position: -563px -22px;
+  width: 17px;
+  height: 17px;
+  float: right;
+  margin-top: 5px;
+}
+.inactive-header .panel-title em {
+  background-position: -583px -22px;
+}
+.FaqTbl {
+  margin-top: 20px;
+  border: 1px solid #e1e1e1;
+}
+.FaqTbl th {
+  padding: 15px 10px;
+  text-align: left;
+  background: #e1e1e1;
+  font-size: 20px;
+}
+.FaqTbl td {
+  padding: 10px;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.PriceMatch {
+  left: 15px;
+  top: 0;
+}
+.MediaBox {
+  padding: 50px 0;
+}
+.MediaBox h2 {
+  margin-bottom: 10px;
+}
+.MediaBox p {
+  padding: 0 15px;
+}
+.MediaBox .owl-item {
+  padding: 20px 0;
+}
+.WhiteBox {
+  padding: 0;
+  background-color: #fff;
+}
+.MImages {
+  padding: 25px 20px;
+}
+.WhiteBox img {
+  vertical-align: middle;
+}
+.WhiteBox p {
+  padding: 20px 15px;
+}
+.WhiteBox .wbdrtop {
+  border-top: 1px solid #979797;
+  padding-top: 15px;
+  margin-top: 0;
+  min-height: 135px;
+}
+.Posted {
+  color: #8d1825;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0;
+}
+.WhiteBox .Posted {
+  background-color: #333333;
+  color: #fff;
+}
+
+.StockMain {
+  color: #22333b;
+  padding: 50px 40px 80px;
+  background-color: #8d1825;
+}
+.StockBox {
+  color: #fff;
+  font-size: 40px;
+  width: 112%;
+  left: -6%;
+  clear: left;
+  text-align: left;
+  padding: 15px 80px 60px 10%;
+  bottom: 0;
+  background-color: #333333;
+  transform: skew(0deg, -4deg);
+}
+.StockBox p {
+  margin: 30px 0;
+  line-height: 1.3em;
+  color: #f8f1d3;
+}
+.StockBox .BigArrow {
+  margin: 0 0 0 -16%;
+  -ms-transform: rotate(-15deg);
+  -webkit-transform: rotate(-15deg);
+  transform: rotate(-15deg);
+}
+.BigArrow {
+  background-position: -373px -210px;
+  width: 228px;
+  height: 32px;
+  position: relative;
+  bottom: -60px;
+}
+.StockBox .BanBott,
+.StockBox .btn {
+  transform: skew(0deg, 4deg);
+  bottom: 0;
+}
+.StockMain .col-7 .h2,
+.StockMain .col-7 p {
+  color: #fff;
+}
+
+.owl-stage-outer {
+  overflow: hidden;
+}
+.owl-carousel .owl-item {
+  float: left;
+  min-height: 1px;
+  position: relative;
+}
+.TestiBox .owl-nav {
+  float: right;
+}
+.owl-nav .Spt,
+.stack_next {
+  width: 35px;
+  height: 35px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+.prev {
+  background-position: -342px -72px;
+}
+.next {
+  background-position: -389px -72px;
+}
+.stack_next {
+  background-position: -429px -70px;
+  border: 0;
+  bottom: -15%;
+  left: 50%;
+}
+
+.quick-access {
+  display: none;
+}
+
+/* end */
+
+/* Ligin */
+.LoginPage,
+.ForgotPage,
+.RegisterPage {
+  padding: 20px 0;
+}
+.LoginPage h1,
+.ForgotPage h1,
+.RegisterPage h1 {
+  margin: 0 0 5px;
+}
+.title {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 15px 0;
+}
+.forgot {
+  padding-top: 2px;
+}
+.name-middlename {
+  display: none !important;
+}
+.form-list .fields {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
+.field.name-firstname {
+  width: 49%;
+  display: inline-block;
+}
+.field.name-lastname {
+  float: right;
+}
+.form-list .field {
+  width: 49%;
+  display: inline-block;
+}
+.form-list .input-box {
+  width: 100%;
+}
+.form-list .input-box-wide {
+  width: 90%;
+}
+.form-list li {
+  margin: 0 0 8px;
+  width: auto;
+  display: block;
+  height: auto;
+}
+.fields label,
+.widgets.form-list li label {
+  padding-bottom: 5px;
+  display: inline-block;
+}
+
+/* Shopping Cart */
+.h1 {
+  margin: 0 0 10px 0;
+  font-size: 40px;
+}
+.txt-center {
+  text-align: center !important;
+}
+.txt-right,
+.text-right {
+  text-align: right !important;
+}
+.txt-left {
+  text-align: left !important;
+}
+.ComTbl .product-name {
+  padding-right: 0;
+}
+.ComTbl .ImgWidth {
+  width: 45px;
+}
+.ComTbl .product-name {
+  text-transform: capitalize;
+}
+.ComTbl .Gray.btn-update {
+  display: none;
+  margin: 5px auto 0;
+}
+.CoupnesBox {
+  background-color: #f9f9f9;
+  border: 1px solid #d8d8d8;
+  margin: 0 0 20px;
+  padding: 15px;
+}
+.CoupnesBox td {
+  padding: 5px;
+}
+.CoupnesBox tfoot th {
+  padding-top: 10px;
+  font-weight: 600;
+}
+.promo-title {
+  padding-bottom: 5px;
+  display: block;
+}
+.promo-input {
+  display: block;
+  margin-top: 3px;
+  margin-right: 10px;
+}
+.GTotal .price {
+  font-size: 18px;
+}
+.cart .price {
+  font-size: 16px;
+  font-family: "RobotoRegular", sans-serif;
+  color: #000;
+}
+.cart .total {
+  padding-left: 10px;
+}
+.cart .total .price {
+  font-size: 22px;
+}
+.checkout-types li {
+  padding: 15px 0 0;
+}
+.product-name {
+  margin: 0;
+  font-size: 14px;
+  padding-right: 30px;
+}
+.qty-box {
+  white-space: nowrap;
+}
+.qty-box input,
+.qty-box button,
+.qty-box a {
+  display: inline-block;
+  min-width: inherit;
+  height: 35px;
+  text-align: center;
+  font-size: 15px;
+}
+.qty-box a {
+  font-size: 13px;
+  text-decoration: none;
+  line-height: 35px;
+}
+.qty-box input {
+  width: 50px;
+  padding: 0 10px;
+}
+.qty-box button,
+.qty-box a {
+  border: 1px solid #ccc;
+  background: #ededed;
+  padding: 0 10px;
+}
+.qty-box .minus {
+  border-radius: 4px 0 0 4px;
+  margin-right: -5px;
+}
+.qty-box .plus {
+  border-radius: 0 4px 4px 0;
+  margin-left: -5px;
+}
+.buttons-set {
+  padding-top: 10px;
+}
+.IconDelete {
+  background-position: -65px -104px;
+  margin-top: 3px;
+  height: 20px;
+  width: 16px;
+}
+
+.btn2 {
+  border: 0;
+  padding: 0 5px;
+  background: transparent;
+  cursor: pointer;
+  vertical-align: middle;
+}
+.btn-default {
+  font-size: 14px;
+  line-height: 38px;
+  padding: 0 25px;
+  background-color: grey;
+}
+
+/* Footer css */
+footer {
+  padding-top: 40px;
+}
+footer nav {
+  text-align: center;
+}
+.footer {
+  border-top: 20px solid;
+  font-weight: 300;
+}
+.footer section {
+  padding: 20px 0;
+  font-size: 15px;
+}
+.Fmenu {
+  background-color: #eee;
+}
+.footer dt {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+.footer dl,
+.footer dd {
+  margin: 0;
+}
+.footer dd a,
+.footer dd span {
+  display: block;
+  color: #263238;
+  text-decoration: none;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+.Cpoint {
+  cursor: pointer;
+}
+.footer dd .txtlink {
+  display: inline;
+}
+.ContactBox dd {
+  margin-bottom: 10px;
+  line-height: 22px;
+  padding-bottom: 10px;
+}
+.Dismer {
+  font-size: 13px;
+}
+
+.FLiveChat {
+  background-color: #488fd1;
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 25px;
+  margin-right: 20px;
+  float: right;
+}
+.IconChat,
+.IconRdown {
+  background-position: -534px top;
+  width: 23px;
+  height: 23px;
+  margin-bottom: -6px;
+}
+.IconRdown {
+  background-position: -534px -23px;
+}
+
+.live-chat {
+  color: #fff;
+}
+.Spt-live-icon.live-icon {
+  background-position: -53px -104px;
+}
+/* end */
+
+/* Common Colors CSS */
+nav,
+.Testi,
+.acunt-title,
+#lc_chat_layout #lc_chat_header,
+.pagination > li.current,
+.panel-title.active,
+.FaqMain .active .panel-title,
+.live-chat,
+.social-icon {
+  background-color: #8d1825 !important;
+}
+a,
+.RedTxt,
+.TPhone a,
+.TPromo,
+.title,
+.txtlink,
+.pagination > li > a,
+.address-item > h4,
+.footer dt,
+.footer dd .txtlink,
+.footer dt:after,
+.footer .active:after,
+.footer dd a:hover,
+.footer dd span:hover,
+.WarBox span {
+  color: #8d1825;
+}
+.h2 {
+  color: #262a33;
+}
+.error-msg {
+  border-color: #a61e25;
+}
+.footer,
+.WarBox,
+.Waricon,
+.acunt-title {
+  border-color: #8d1825;
+}
+.Green,
+.MPopuler,
+.ThemeBgColor {
+  background-color: #53800a !important;
+}
+.Green:hover {
+  background-color: #426903;
+}
+.btn-md,
+.PBin .btn {
+  font-size: 20px;
+  line-height: 48px;
+  padding: 0 70px;
+}
+.Black {
+  background-color: #666;
+}
+.Black:hover {
+  background-color: #555;
+}
+.Price,
+.Saving .price {
+  color: #8d1825;
+}
+.BenftBox,
+.MediaBox,
+.dropdown {
+  background-color: #f8f1d3;
+}
+
+@media print {
+  * {
+    background: none !important;
+    text-align: left !important;
+  }
+  html {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  body {
+    background: #fff !important;
+    font-size: 9pt !important;
+    padding: 0 !important;
+    margin: 10px !important;
+  }
+  a {
+    color: #2976c9 !important;
+  }
+  th,
+  td {
+    color: #2f2f2f !important;
+    border-color: #ccc !important;
+  }
+  .header-container,
+  .nav-container,
+  .footer-container,
+  .pager,
+  .toolbar,
+  .actions,
+  .buttons-set {
+    display: none !important;
+  }
+  .page-print .data-table .cart-tax-total {
+    background-position: 100% -54px;
+  }
+  .page-print .data-table .cart-tax-info {
+    display: block !important;
+  }
+}
