@@ -1345,7 +1345,7 @@
           type="text/css"
           href="https://cdn.vitabalance.net/assests/media/couponbanner/css/earthday.css"
         />
-        <div class="FPopSticky">
+        <!-- <div class="FPopSticky">
           <span class="FPopStickySnow"></span>
           <i class="FPopclose"></i>
           <div class="col-6 text-right FPopStickyBG">
@@ -1357,33 +1357,9 @@
             </div>
           </div>
           <div class="col-6 clock"></div>
-        </div>
+        </div> -->
 
-        <script type="text/javascript">
-          //require(['jquery', 'flipclock'], function($)
-          //{
-          $(document).ready(function ($) {
-            $("body").addClass("popup_show");
-            $(".FPopclose").click(function () {
-              $(".FPopSticky").hide();
-              $("body").removeClass("popup_show");
-            });
-          });
-          var currentDate = new Date("April 22, 2023 08:03:38");
-          //var futureDate  = new Date(2023, 3, 23);
-          var futureDate = new Date("April 23, 2023 23:59:59");
-
-          // Calculate the difference in seconds between the future and current date
-          var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
-
-          // Instantiate a coutdown FlipClock
-          clock = $(".clock").FlipClock(diff, {
-            clockFace: "DailyCounter",
-            countdown: true,
-          });
-          //});
-          var isBanner = true;
-        </script>
+       
       </footer>
     </div>
 
@@ -1511,7 +1487,7 @@
           });
         }
       });
-    </script>
+    // </script>
     <div class="modal-overlay"></div>
     <script></script>
     <script src="https://cdn.vitabalance.net/assests/common/js/jquery-ui.min.js"></script>
@@ -1735,6 +1711,9 @@
         }
       );
     </script>
+
+    <!-- live chat -->
+
     <!-- <div class="live-chat">
       <i class="Spt-live-icon live-icon">Live Chat</i>
     </div>
