@@ -124,6 +124,12 @@ img {
   clear: left;
   padding: 15px 0;
 }
+.Benefits .BenftBox .box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .box:before,
 .box:after {
   display: table;
@@ -311,7 +317,7 @@ ol li {
 
 /* common images */
 .Spt {
-  background: url(../images/sprite.png) left top no-repeat;
+  background: url(assests/images/sprite.png) left top no-repeat;
   display: inline-block;
 }
 
