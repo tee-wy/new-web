@@ -1,36 +1,38 @@
 @font-face {
   font-family: "proxima_nova_altblack";
-  src: url("fonts/mark_simonson_-_proxima_nova_alt_black_2-webfont.woff2")
+  src: url("assests/fonts/mark_simonson_-_proxima_nova_alt_black_2-webfont.woff2")
       format("woff2"),
-    url("fonts/mark_simonson_-_proxima_nova_alt_black_2-webfont.woff")
+    url("assests/fonts/mark_simonson_-_proxima_nova_alt_black_2-webfont.woff2")
       format("woff");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "leckerlioneregular";
-  src: url("fonts/leckerlione-regular_0-webfont.woff2") format("woff2"),
-    url("fonts/leckerlione-regular_0-webfont.woff") format("woff");
+  src: url("assests/fonts/leckerlione-regular_0-webfont.woff2") format("woff2"),
+    url("assests/fonts/leckerlione-regular_0-webfont.woff2") format("woff");
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: "RobotoRegular";
-  src: url("fonts/RobotoRegular.eot");
-  src: url("fonts/RobotoRegular.eot") format("embedded-opentype"),
-    url("fonts/RobotoRegular.woff2") format("woff2"),
-    url("fonts/RobotoRegular.woff") format("woff"),
-    url("fonts/RobotoRegular.ttf") format("truetype"),
-    url("fonts/RobotoRegular.svg#RobotoRegular") format("svg");
+  src: url("assests/fonts/RobotoRegular.eot");
+  src: url("assests/fonts/RobotoRegular.eot") format("embedded-opentype"),
+    url("assests/fonts/RobotoRegular.woff2") format("woff2"),
+    url("assests/fonts/RobotoRegular.woff") format("woff"),
+    url("assests/fonts/RobotoRegular.ttf") format("truetype"),
+    url("assests/fonts/RobotoRegular.svg#RobotoRegular") format("svg");
 }
+
 @font-face {
   font-family: "RobotoBold";
-  src: url("fonts/RobotoBold.eot");
-  src: url("fonts/RobotoBold.eot") format("embedded-opentype"),
-    url("fonts/RobotoBold.woff2") format("woff2"),
-    url("fonts/RobotoBold.woff") format("woff"),
-    url("fonts/RobotoBold.ttf") format("truetype"),
-    url("fonts/RobotoBold.svg#RobotoBold") format("svg");
+  src: url("assests/fonts/RobotoBold.eot");
+  src: url("assests/fonts/RobotoBold.eot") format("embedded-opentype"),
+    url("assests/fonts/RobotoBold.woff2") format("woff2"),
+    url("assests/fonts/RobotoBold.woff") format("woff"),
+    url("assests/fonts/RobotoBold.ttf") format("truetype"),
+    url("assests/fonts/RobotoBold.svg#RobotoBold") format("svg");
 }
 
 header,
