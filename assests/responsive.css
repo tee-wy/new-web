@@ -36,6 +36,10 @@
 
     .PriceWhite {
         padding: 15px 15px 35px 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .PriceWhite .h2 {
@@ -45,6 +49,7 @@
     .MPopuler {
         margin: -30px auto 8px;
     }
+    
 }
 
 @media (max-width: 1024px) {
@@ -288,6 +293,21 @@
     .MBan > img {
         max-width: 1000px;
     }
+    .PriceWhite {
+        padding: 15px 15px 35px 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .PriceWhite .PDetailsMain p {
+        font-size: 30px;
+        text-align: center;
+    }
+    .order_now .box img {
+        width: 9000px !important;
+      }
+   
 }
 
 @media (max-width: 900px) {
@@ -384,6 +404,13 @@
     .IngtsHead {
         font-size: 18px;
         padding: 0 15px;
+    }
+    .PriceWhite {
+        padding: 15px 15px 35px 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -675,6 +702,13 @@
     .StockBox .BanBott {
         right: 20px;
     }
+    .PriceWhite {
+        padding: 15px 15px 35px 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media (max-width: 768px) {
@@ -689,6 +723,7 @@
     .BanTxt h1 {
         margin: 0;
     }
+    
 }
 
 @media (max-width: 767px) {
@@ -702,6 +737,13 @@
 
     .MBan {
         background-position: -130px 0;
+    }
+    .PriceWhite {
+        padding: 15px 15px 35px 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -784,6 +826,13 @@
     .In7 .IconRPlus {
         top: 0;
         margin-left: 0;
+    }
+    .PriceWhite {
+        padding: 15px 15px 35px 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -979,6 +1028,13 @@
     .PDetailsMain .Saving .Price {
         font-size: 26px;
     }
+    .PriceWhite {
+        padding: 15px 15px 35px 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media (max-width: 560px) {
@@ -988,6 +1044,13 @@
 
     .In2 .IngtsTxt, .In4 .IngtsTxt, .In6 .IngtsTxt {
         right: -12%;
+    }
+    .PriceWhite {
+        padding: 15px 15px 35px 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -1113,6 +1176,13 @@
     .BanTxt {
         top: 10%;
     }
+    .PriceWhite {
+        padding: 15px 15px 35px 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media (max-width: 420px) {
@@ -1185,6 +1255,13 @@
 
     .h2, .BenftBox .h2 {
         font-size: 24px;
+    }
+    .PriceWhite {
+        padding: 15px 15px 35px 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -1271,5 +1348,12 @@
 
     .PriceWhite .h2 {
         font-size: 17px;
+    }
+    .PriceWhite {
+        padding: 15px 15px 35px 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }

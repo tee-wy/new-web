@@ -1057,6 +1057,7 @@ section {
 .box.PBin {
   padding: 20px 0 0;
 }
+
 .PriceWhite .h2 {
   font-size: 25px;
   text-transform: uppercase;
@@ -1088,6 +1089,10 @@ section {
 }
 .PriceWhite img {
   margin: 20px 0;
+}
+
+.box .small img {
+  width: 100% !important;
 }
 .PriceBox .PriceHead,
 .Price,
