@@ -327,11 +327,6 @@
         padding: 0 15px;
     }
 
-    /* .PriceWhite img {
-        margin-top: 20px;
-        max-height: 180px;
-    } */
-
     .PriceWhite .PriceHead {
         margin: 0 0 10px;
         text-transform: none;
@@ -409,11 +404,7 @@
         justify-content: center;
         align-items: center;
     }
-    .PriceWhite img {
-            /* width: 100%; */
-            /* max-width: 150px; */
-          
-    }
+    
 }
 
 @media (max-width: 800px) {
@@ -999,10 +990,6 @@
         width: 30%;
     }
 
-    .PriceWhite img {
-        max-height: 100px;
-    }
-
     .PDetailsMain {
         width: 70%;
         padding: 10px;
@@ -1185,9 +1172,7 @@
         justify-content: center;
         align-items: center;
     }
-    .PriceWhite img {
-        width: 80%;
-    }
+   
 }
 
 @media (max-width: 420px) {
@@ -1250,9 +1235,6 @@
         padding-right: 10px;
     }
 
-    .PriceWhite img {
-        max-height: 80px;
-    }
 
     .PriceWhite .h2 {
         font-size: 20px;
