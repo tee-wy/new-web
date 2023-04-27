@@ -49,6 +49,15 @@
     .MPopuler {
         margin: -30px auto 8px;
     }  
+    .PriceWhite img {
+        margin: 20px 0;
+        width: 900px !important;
+        height: auto !important;
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+       
+      }
 }
 
 @media (max-width: 1024px) {
@@ -312,17 +321,26 @@
         width:100%;
     }
 
-    .PImgMain {
+    /* .PImgMain {
         float: left;
-        width: 35%;
+        width: 100%;
         text-align: center;
         position: relative;
         padding: 0 10px;
-    }
+    } */
+    .PriceWhite img {
+        margin: 20px 0;
+        width: 900px !important;
+        height: auto !important;
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+       
+      }
 
     .PDetailsMain {
         float: left;
-        width: 65%;
+        width: 100%;
         text-align: left;
         padding: 0 15px;
     }
@@ -986,14 +1004,14 @@
         padding-bottom: 20px;
     }
 
-    .PImgMain {
+    /* .PImgMain {
         width: 30%;
-    }
+    } */
 
-    .PDetailsMain {
+    /* .PDetailsMain {
         width: 70%;
         padding: 10px;
-    }
+    } */
 
     .PDetailsMain .btn {
         line-height: 41px;
